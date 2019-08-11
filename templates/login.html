@@ -17,8 +17,6 @@
 <button id="signinButton">Google Signin</button>
 <div id="result"></div>
 
-
-
 <script>
   $('#signinButton').click(function() {
     function signInCallback(authResult){
@@ -35,7 +33,7 @@
             $('#result').html('Login Successful!</br>'+ result + '</br>Redirecting...')
                  setTimeout(function() {
                   window.location.href = "/";
-                 }, 2000);
+                 }, 3000);
           },
           processData:false,
           data:authResult['code']

@@ -1,0 +1,81 @@
+body{ 
+    font-family: sans-serif; 
+    background-color: rgb(152, 192, 41);
+}
+
+h1, h2, h3, h4{ 
+    color: rgb(223, 10, 28);  
+    font-weight: bold;
+}
+
+h2{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em; 
+}
+
+p{ 
+    color: black;
+}
+
+a{
+    text-decoration: none; 
+    font-size: 1.2em;
+}
+
+.container {
+    position:relative;
+    top: 20%;
+    border-radius: 3px; 
+    margin: 0 auto; 
+    padding: 5px;
+    border-color: #b6b3b3; 
+    background-color: #ffffff; 
+    border: 5px dotted rgba(224, 143, 36, 0.555); 
+    opacity: 0.95;
+    filter: alpha(opacity=60);
+    width: 500px;
+}
+
+.header{
+    left:50%; 
+    text-align: center;
+}
+
+.name {
+    float: unset;
+    width:50%;
+}
+
+.price {
+    text-align: right; 
+    width:50%; 
+    float: right; 
+}
+
+.flash{
+    text-align: center;
+    background: rgb(87, 206, 51); 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.btn-login,.btn-logout{
+    float: right;
+    color: #ffffff;
+    background: #bd3781;
+    width: 240px;
+    height: 40px;
+}
+
+#btn-del:hover {
+    background: red;
+}
+
+#btn-edit:hover {
+    background: steelblue;
+}
+
+#btn-menu:hover {
+    background: orange;
+}
