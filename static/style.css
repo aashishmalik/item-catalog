@@ -1,6 +1,6 @@
 body{ 
     font-family: sans-serif; 
-    background-color: rgb(152, 192, 41);
+    background-color : burlywood;
 }
 
 h1, h2, h3, h4{ 
@@ -27,12 +27,12 @@ a{
     top: 20%;
     border-radius: 3px; 
     margin: 0 auto; 
+
     padding: 5px;
-    border-color: #b6b3b3; 
-    background-color: #ffffff; 
-    border: 5px dotted rgba(224, 143, 36, 0.555); 
+    border-color: #b4b6b3; 
+    background-color:skyblue ; 
+    border: 5px solid black; 
     opacity: 0.95;
-    filter: alpha(opacity=60);
     width: 500px;
 }
 
@@ -63,7 +63,7 @@ a{
 .btn-login,.btn-logout{
     float: right;
     color: #ffffff;
-    background: #bd3781;
+    background:brown;
     width: 240px;
     height: 40px;
 }
