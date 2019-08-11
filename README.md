@@ -52,4 +52,18 @@ $ python app.py
 
 12 Open browser and visit [http://localhost:5000](http://localhost:5000)
 
+## SCREENSHOTS
 
+> Home Page:
+
+![Create](https://github.com/theashishmalik/item-catalog/blob/master/static/home.png)
+
+> Creating a new Restaurant:
+
+![Create](https://github.com/theashishmalik/item-catalog/blob/master/static/AddedRestaurant.png)
+> Editing an existing Restaurant: 
+
+![Edit](https://github.com/theashishmalik/item-catalog/blob/master/static/AddedMenu.png)
+> SignIn :
+
+![Delete](https://github.com/theashishmalik/item-catalog/blob/master/static/SignIn.png)
